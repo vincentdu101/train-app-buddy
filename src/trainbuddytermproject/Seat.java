@@ -9,6 +9,17 @@ package trainbuddytermproject;
  *
  * @author vincentdu
  */
-public class Seat {
+public abstract class Seat {
+    
+    boolean taken = false;
+    String description = "Seat for someone to sit in.";
+    
+    public String getDescription() {
+        return description;
+    }
+    
+    public abstract boolean isTaken();
+    
+    public abstract void setTaken();
     
 }

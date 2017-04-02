@@ -11,8 +11,8 @@ package trainbuddytermproject;
  */
 public abstract class TrainFactory {
 
-	public Train prepareTrain(Direction direction, Station startingStation) {
-		Train train = createTrain(direction);
+	public Train prepareTrain(TrainModel model, Station startingStation) {
+		Train train = createTrain(model);
 
 		train.setupSeats();
 		train.linkToStartingStation(startingStation);
@@ -21,6 +21,6 @@ public abstract class TrainFactory {
 		return train;
 	}
 
-	abstract Train createTrain(Direction direction);
+	abstract Train createTrain(TrainModel model);
     
 }
