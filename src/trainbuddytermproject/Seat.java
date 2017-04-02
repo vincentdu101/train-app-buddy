@@ -20,6 +20,6 @@ public abstract class Seat {
     
     public abstract boolean isTaken();
     
-    public abstract void setTaken();
+    public abstract void setTaken(boolean taken);
     
 }

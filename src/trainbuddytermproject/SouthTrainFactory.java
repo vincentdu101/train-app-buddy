@@ -12,6 +12,7 @@ package trainbuddytermproject;
 public class SouthTrainFactory extends TrainFactory {
     
     private Train train; 
+    private Direction direction = Direction.SOUTH;
     
     @Override 
     public Train createTrain(TrainModel model) {

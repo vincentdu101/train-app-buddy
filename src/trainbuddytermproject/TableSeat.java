@@ -9,14 +9,14 @@ package trainbuddytermproject;
  *
  * @author vdu
  */
-public class SpecialReservedSeat extends Seat {
+public class TableSeat extends Seat {
     
     Seat seat;
     boolean taken;
     
-    public SpecialReservedSeat() {
+    public TableSeat() {
         this.taken = false;
-        this.description = "Special Reserved seat";
+        this.description = "Table seat";
     }
     
     @Override

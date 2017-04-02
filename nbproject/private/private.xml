@@ -3,11 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/vdu/workspace/experiments/train-app-buddy/src/trainbuddytermproject/Direction.java</file>
-            <file>file:/Users/vdu/workspace/experiments/train-app-buddy/src/trainbuddytermproject/TrainFactory.java</file>
+            <file>file:/Users/vdu/workspace/experiments/train-app-buddy/src/trainbuddytermproject/SeatDecorator.java</file>
             <file>file:/Users/vdu/workspace/experiments/train-app-buddy/src/trainbuddytermproject/Seat.java</file>
-            <file>file:/Users/vdu/workspace/experiments/train-app-buddy/src/trainbuddytermproject/Monitor.java</file>
-            <file>file:/Users/vdu/workspace/experiments/train-app-buddy/src/trainbuddytermproject/Station.java</file>
+            <file>file:/Users/vdu/workspace/experiments/train-app-buddy/src/trainbuddytermproject/SpecialReservedSeat.java</file>
         </group>
     </open-files>
 </project-private>
