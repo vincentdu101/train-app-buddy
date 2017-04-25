@@ -19,6 +19,8 @@ public class Train {
     List<Seat> seats;
     Station startingStation;
     Station currentStation;
+    List<Monitor> monitors;
+    TrainState trainState = TrainState.STOPPED;
     
     public void setupSeats() {
         seats = new ArrayList<>();
@@ -41,6 +43,7 @@ public class Train {
     }
     
     public void startTrain() {
-        
+        trainState = TrainState.STARTED;
+        monitors.forEach(m -> m.update(trainState));
     }
 }

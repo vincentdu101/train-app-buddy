@@ -9,10 +9,20 @@ package trainbuddytermproject;
  *
  * @author vincentdu
  */
-public interface Monitor {
+public enum TrainState {
     
-    public void update(TrainState trainState);
+    STARTED("Started"),
+    STOPPED("Stopped"),
+    REPAIRING("REPAIRING");
     
-    public void addTrain(Train train);
+    String state;
+    
+    TrainState(String state) {
+        this.state = state;
+    }
+    
+    public String getState() {
+        return state;
+    }
     
 }
